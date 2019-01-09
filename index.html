@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Running boy!!!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/shadow.css">
+    <link rel="stylesheet" href="animate.css">
+    <embed src="assets/Lucid_Dreamer.mp3" autostart=true hidden=true loop=true>
+
+
+
+    <style>
+        img {
+            position: absolute;
+        }
+
+        .slideanimate {
+            visibility: hidden;
+        }
+
+        .slide {
+            visibility: visible;
+        }
+
+       #div0 {
+            background-image: url("assets/div0_bg.png");
+        }
+        #div1 {
+            background-image: url("assets/div1_bg.png");
+        }
+        #div2 {
+            background-image: url("assets/div2_bg.png");
+        }
+
+        #div3 {
+            background-image: url("assets/div3_bg_sleepinroom.png");
+        }
+
+        #div4 {
+            background-image: url("assets/div4_bg.png");
+        }
+
+        #div5 {
+            background-image: url("assets/div5_bg.png");
+        }
+
+        #div6 {
+            background-image: url("assets/div6__bg_ntu.png");
+        }
+
+        #div7 {
+            background-image: url("assets/div7_bg.png");
+        }
+
+        #div8 {
+            min-height: 150vh;
+            background-color: white;
+        }
+
+        #div9 {
+            background-image: url("assets/div9_bg.png");
+        }
+
+        #div10 {
+            background-image: url("assets/div10_bg_road.png");
+        }
+
+        #div11 {
+            min-height: 150vh;
+            background-color: white;
+        }
+
+        #div12 {
+            background-image: url("assets/div12_bg_money60.png");
+        }
+
+        #div13 {
+            min-height: 150vh;
+            background-color: white;
+        }
+
+        #div14 {
+            background-image: url("assets/div14_0_bg_library.png");
+        }
+
+        #div15 {
+            min-height: 150vh;
+            background-color: white;
+        }
+
+        #div16 {
+            min-height: 150vh;
+            background-color: black;
+            background-image: url("assets/div16_boom.png");
+        }
+
+        #div17 {
+            min-height: 150vh;
+            background-color: white;
+            background-image: url("assets/div17_fall.png");
+        }
+
+        #div18 {
+            min-height: 150vh;
+            background-color: white;
+        }
+
+        #div19 {
+            background-image: url("assets/div19_bg.png");
+        }
+
+        #div20 {
+            background-image: url("assets/div20_bg_ntu.png");
+        }
+
+        #div1,
+        #div2,
+        #div3,
+        #div4,
+        #div5,
+        #div6,
+        #div7,
+        #div8,
+        #div9,
+        #div10,
+        #div11,
+        #div12,
+        #div13,
+        #div14,
+        #div15,
+        #div16,
+        #div17,
+        #div18,
+        #div19,
+        #div20,
+            {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div id="div0" style="min-height:1000px;background-repeat: no-repeat;
+    background-attachment: fixed;background-position:center;background-size:cover;"></div>
+
+    <div id="div1" style="min-height:1000px;background-repeat: no-repeat;
+    background-attachment: fixed;background-position:center;background-size:cover;">
+        <div class="sildeanimate">
+        <img src="assets/div1_w1_ben.png" data-pos="300" data-speed=".15" data-direction="fadeInUp" class="obj" style="left:-15%; top:80px;">
+        <img src="assets/div1_w2_pow.png" data-pos="310" data-speed=".20" data-direction="fadeInUp" class="obj" style="left:-12%; top:100px;">
+        <img src="assets/div1_w3_ba.png" data-pos="320" data-speed=".25" data-direction="fadeInUp" class="obj" style="left:-9%; top:105px;">
+        <img src="assets/div1_w4_!.png" data-pos="330" data-speed=".30" data-direction="fadeInUp" class="obj" style="left:-6%; top:105px;">
+        <img src="assets/div1_w5-tai.png" data-pos="340" data-speed=".35" data-direction="fadeInUp" class="obj" style="left:-5%; top:120px;">
+        <img src="assets/div1_w6-da.png" data-pos="350" data-speed=".40" data-direction="fadeInUp" class="obj" style="left:-2%; top:120px;">
+        <img src="assets/div1_w7-bian.png" data-pos="360" data-speed=".45" data-direction="fadeInUp" class="obj" style="left:1%; top:120px;">
+        <img src="assets/div1_w8-yuan.png" data-pos="370" data-speed=".5" data-direction="fadeInUp" class="obj" style="left:4%; top:120px;">
+        <img src="assets/div1_w9-lan.png" data-pos="380" data-speed=".55" data-direction="fadeInUp" class="obj" style="left:7%; top:120px;"></div>
+    </div>
+
+    <div id="div2" class="container-fluid innershadow1" style="background-color:black;min-height:120vh;position:relative;background-repeat: no-repeat;
+    background-attachment: fixed;background-position:relative;background-size:cover;">
+        <div class="slideanimate"><img src="assets/div2_w1.png" style="position:absolute;width:100%;"></div>
+    </div>
+
+
+    <div id="div3" class="container-fluid innershadow1" style="background-color:black;min-height:200vh;position:relative;background-repeat: no-repeat;
+    background-attachment: fixed;background-position:relative;background-size:cover;">
+        <img class="scrollable dropshadow1" data-left=-30 data-left2=15 data-top=10 data-top2=60 src="assets/div3_man.png" style="position:absolute;width:80%;top:50%;left:-30%;">
+    </div>
+
+
+    <div id="div4" class="container-fluid innershadow1" style="min-height:200vh;position:relative;background-repeat: no-repeat;
+    background-attachment: fixed;background-position:relative;background-size:cover;">
+    </div>
+
+
+    <div id="div5" class="container-fluid innershadow1" style="min-height:1400vh;position:relative;background-repeat: no-repeat;
+    background-attachment: fixed;background-position:center;background-size:cover;">
+        <img src="assets/div5_1.png" class="slideanimate" style="position:absolute;width:70%;top:2%;left:15%">
+        <img src="assets/div5_2.png" class="slideanimate" style="position:absolute;width:70%;top:11%;left:15%">
+        <img src="assets/div5_3.png" class="slideanimate" style="position:absolute;width:70%;top:20%;left:15%">
+        <img src="assets/div5_4.png" class="slideanimate" style="position:absolute;width:70%;top:29%;left:15%">
+        <img src="assets/div5_5.png" class="slideanimate" style="position:absolute;width:70%;top:38%;left:15%">
+        <img src="assets/div5_6.png" class="slideanimate" style="position:absolute;width:70%;top:47%;left:15%">
+        <img src="assets/div5_7.png" class="slideanimate" style="position:absolute;width:70%;top:56%;left:15%">
+        <img src="assets/div5_8.png" class="slideanimate" style="position:absolute;width:70%;top:65%;left:15%">
+        <img src="assets/div5_9.png" class="slideanimate" style="position:absolute;width:70%;top:74%;left:15%">
+        <img src="assets/div5_10.png" class="slideanimate" style="position:absolute;width:70%;top:83%;left:15%">
+        <img src="assets/div5_11_word.png" class="slideanimate" style="position:absolute;width:50%;top:92%;left:25%"></div>
+
+    <div id="div6" class="container-fluid innershadow1" style="min-height:300vh;position:relative;background-repeat: no-repeat;
+    background-attachment: fixed;background-position:center;background-size:cover;">
+        <img src="assets/div6_w1.png" class="slideanimate" style="position:absolute;width:60%;top:10%;left:25%">
+        <img src="assets/div6_w2.png" class="slideanimate" style="position:absolute;width:60%;top:40%;left:25%"><img src="assets/div6_w3.png" class="slideanimate" style="position:absolute;width:60%;top:70%;left:25%">
+    </div>
+
+    <div id="div7" class="container-fluid innershadow1" style="background-color:black;min-height:200vh;position:relative;background-repeat: no-repeat;
+    background-attachment: fixed;background-position:center;background-size:cover;">
+        <img class="scrollable dropshadow1" data-top=15 data-top2=50 data-left=-10 data-left2=40 data-width=50 data-width2=80 src="assets/div7_boy_walktoclass.png" style="position:absolute;width:80%;top:20%;left:-10%;"></div>
+
+    <div id="div8" class="container-fluid innershadow1" style="min-height:250vh;position:relative;background-repeat: no-repeat;
+    background-attachment: fixed;background-position:center;background-size:cover;">
+        <img src="assets/div8_1.png" class="slideanimate" style="position:absolute;width:100%;top:10%"><img src="assets/div8_2_haha.png" class="slideanimate" style="position:absolute;width:100%;top:10%"><img src="assets/div8_3.png" class="slideanimate" style="position:absolute;width:100%;top:0%"><img src="assets/div8_4.png" class="slideanimate" style="position:absolute;width:100%;top:50%"></div>
+    <div id="div9" class="container-fluid innershadow1" style="min-height:200vh;position:relative;background-repeat: no-repeat;
+    background-attachment: fixed;background-position:center;background-size:cover;">
+        <img class="scrollable dropshadow1" data-top=15 data-top2=55 data-left=80 data-left2=-30 data-width=50 data-width2=80 src="assets/div9_boy.png" style="position:absolute;width:80%;top:40%;left:50%;">
+        <img class="slideanimate" src="assets/div9_w1.png" style="position:absolute;width:60%;top:10%;left:20%;">
+        <img class="slideanimate" src="assets/div9_w2.png" style="position:absolute;width:60%;top:60%;left:60%;"></div>
+
+
+    <div id="div10" class="container-fluid innershadow1" style="min-height:200vh;position:relative;background-repeat: no-repeat;
+    background-attachment: fixed;background-position:center;background-size:cover;">
+        <img class="slideanimate" src="assets/div11_1_w1.png" style="position:absolute;width:100%;top:50%;left:50%;">
+    </div>
+
+
+    <div id="div11" class="container-fluid innershadow1" style="min-height:200vh;position:relative;background-repeat: no-repeat;
+    background-attachment: fixed;background-position:center;background-size:cover;">
+
+        <img class="scrollable dropshadow1" data-top=30 data-top2=50 data-left=0 data-left2=20 data-width=50 data-width2=80 src="assets/div11_2_lamei.png" style="position:absolute;width:50%;top:50%;left:50%;">
+        <img class="scrollable dropshadow1" data-top=30 data-top2=50 data-left=0 data-left2=20 data-width=50 data-width2=80 src="assets/div11_3_chicken.png" style="position:absolute;width:50%;top:50%;left:50%;">
+        <img class="scrollable dropshadow1" data-top=30 data-top2=50 data-left=0 data-left2=20 data-width=50 data-width2=80 src="assets/div11_4_pasta.png" style="position:absolute;width:50%;top:50%;left:50%;">
+        <img class="scrollable dropshadow1" data-top=30 data-top2=50 data-left=0 data-left2=20 data-width=50 data-width2=80 src="assets/div11_5_bubbletea.png" style="position:absolute;width:50%;top:50%;left:50%;">
+        <img class="scrollable dropshadow1" data-top=30 data-top2=50 data-left=0 data-left2=20 data-width=50 data-width2=80 src="assets/div11_6_nomoney.png" style="position:absolute;width:50%;top:50%;left:50%;">
+        <img class="slideanimate" src="assets/div11_7_w2.png" style="position:absolute;width:100%;top:30%;left:0%;"></div>
+
+
+    <div id="div12" class="container-fluid innershadow1" style="min-height:200vh;position:relative;background-repeat: no-repeat;
+    background-attachment: fixed;background-position:center;background-size:cover;">
+        <img class="slideanimate" src="assets/div12_w1.png" style="position:absolute;width:80%;top:10%;left:30%;"></div>
+
+    <div id="div13" class="container-fluid innershadow1" style="min-height:150vh;position:relative;background-repeat: no-repeat;
+    background-attachment: fixed;background-position:center;background-size:cover;">
+        <img class="slideanimate" src="assets/div13_sad.png" style="position:absolute;width:100%;top:10%;left:10%">
+        <img class="slideanimate" src="assets/div13_w1.png" style="position:absolute;width:80%;top:10%;left:10%;"></div>
+
+
+    <div id="div14" class="container-fluid innershadow1" style="min-height:300vh;position:relative;background-repeat: no-repeat;
+    background-attachment: fixed;background-position:center;background-size:cover;">
+        <img class="slideanimate" src="assets/div14_1_word.png" style="position:absolute;width:90%;top:0%;">
+        <img class="scrollable" data-pos="50" src="assets/div14_2_couple1.png" style="position:absolute;width:90%;top:25%;left:35%">
+        <img class="scrollable" src="assets/div14_3_couple2.png" style="position:absolute;width:90%;top:25%;left:-20%"><img class="scrollable dropshadow1" data-top=10 data-top2=40 data-left=70 data-left2=30 data-width=50 data-width2=80 src="assets/div14_4_boy_shock.png" style="position:absolute;width:50%;top:50%;left:50%;">
+        <img class="slideanimate" src="assets/div14_5_w1.png" style="position:absolute;width:90%;top:70%;left:0%;"><img class="slideanimate" src="assets/div14_6_w2.png" style="position:absolute;width:90%;top:70%;left:0%;"></div>
+
+    <div id="div15" class="container-fluid innershadow1" style="min-height:200vh;position:relative;background-repeat: no-repeat;
+    background-attachment: fixed;background-position:center;background-size:cover;">
+        <img class="scrollable dropshadow1" data-top=10 data-top2=50 data-left=70 data-left2=30 data-width=50 data-width2=80 src="assets/div15_boy_runaway.png" style="position:absolute;width:50%;top:60%;left:50%;">
+        <img class="scrollable dropshadow1" data-top=10 data-top2=50 data-left=-10 data-left2=30 data-width=50 data-width2=80 src="assets/div15_girl_walk.png" style="position:absolute;width:50%;top:60%;left:50%;"></div>
+
+    <div id="div16" class="container-fluid innershadow1" style="min-height:200vh;position:relative;background-repeat: no-repeat;
+    background-attachment: fixed;background-position:center;background-size:cover;">
+    </div>
+
+    <div id="div17" class="container-fluid innershadow1" style="min-height:200vh;position:relative;background-repeat: no-repeat;
+    background-attachment: fixed;background-position:center;background-size:cover;">
+    </div>
+
+    <div id="div18" class="container-fluid innershadow1" style="min-height:600vh;position:relative;background-repeat: no-repeat;
+    background-attachment: fixed;background-position:center;background-size:cover;">
+        <img class="slideanimate" src="assets/div18_1.png" style="position:absolute;width:70%;top:0%;left: 15%">
+        <img class="slideanimate" src="assets/div18_2.png" style="position:absolute;width:70%;top:17%;left: 15%">
+        <img class="slideanimate" src="assets/div18_3.png" style="position:absolute;width:70%;top:34%;left: 15%">
+        <img class="slideanimate" src="assets/div18_4.png" style="position:absolute;width:70%;top:51%;left: 15%">
+        <img class="slideanimate" src="assets/div18_5.png" style="position:absolute;width:70%;top:68%;left: 15%">
+        <img class="slideanimate" src="assets/div18_6.png" style="position:absolute;width:70%;top:85%;left: 15%"></div>
+
+    <div id="div19" class="container-fluid innershadow1" style="min-height:200vh;position:relative;background-repeat: no-repeat;
+    background-attachment: fixed;background-position:center;background-size:cover;">
+        <img class="slideanimate" src="assets/div19_w1.png" style="position:absolute;width:90%;top:15%;">
+        <img class="slideanimate" src="assets/div19_w2.png" style="position:absolute;width:90%;top:60%;left:10%">
+    </div>
+
+    <div id="div20" class="container-fluid innershadow1" style="min-height:300vh;position:relative;background-repeat: no-repeat;
+    background-attachment: fixed;background-position:center;background-size:cover;">
+        <img class="slideanimate" src="assets/div20_1.png" style="position:absolute;width:50%;top:10%;left:35%">
+        <img class="slideanimate" src="assets/div20_2.png" style="position:absolute;width:50%;top:20%;left:35%">
+        <img class="slideanimate" src="assets/div20_w3.png" style="position:absolute;width:50%;top:40%;left:35%">
+       
+        <img class="scrollable dropshadow1" data-top=10 data-top2=50 data-left=70 data-left2=30 data-width=50 data-width2=80 src="assets/div20_word.png" style="position:absolute;width:80%;top:70%;left:5%;">
+       <img class="scrollable dropshadow1" data-top=10 data-top2=50 data-left=70 data-left2=30 data-width=50 data-width2=80 src="assets/div20_4.png" style="position:absolute;width:50%;top:87%;left:37%;">
+       
+    </div>
+
+
+
+    <script>
+        $(function() {
+            $(window).scroll(function() {
+                var scrolled = $(window).scrollTop();
+                $(".obj").each(function() {
+                    $(this).css('top', ($(this).data("pos") + scrolled * $(this).data("speed")) + 'px');
+                });
+            });
+        });
+
+        $(function() {
+            $(window).scroll(function() {
+                $(".slideanimate").each(function() {
+                    var winTop = $(window).scrollTop();
+                    var winh = $(window).height();
+                    var objpos = $(this).offset().top;
+                    if (objpos < winTop + winh * 0.5) {
+                        $(this).addClass("animated fadeInUp slide").show(5000);
+                    }
+                    if (winTop == 0) {
+                        $(this).removeClass("animated fadeInUp slide ");
+                    }
+
+                });
+            });
+        });
+         
+
+        $(function() {
+            $(window).scroll(function() {
+                $(".slideanimate").each(function() {
+                    var winTop = $(window).scrollTop();
+                    var winh = $(window).height();
+                    var objpos = $(this).offset().top;
+                    if (objpos < winTop + winh * 0.0000000000000000000000000000000000000000000000000001) {
+                        $(this).addClass("animated fadeOut slide");
+                    }
+
+                });
+            });
+        });
+
+
+        $(document).ready(function() {
+            var winh = $(window).height();
+            $(window).scroll(function() {
+                var scrolled = $(window).scrollTop();
+                $(".scrollable").each(function() {
+                    var parent_pos = $(this).parent().offset().top;
+                    var next_pos = $(this).parent().next().offset().top;
+                    var parent_height = $(this).parent().height();
+                    var parent_scrolled = scrolled - $(this).parent().offset().top;
+                    if (parent_scrolled > 0 && scrolled < next_pos - winh) {
+
+                        if ($(this).attr("data-left")) {
+                            $(this).css('left', (($(this).data('left2') - $(this).data('left')) * parent_scrolled / winh + $(this).data('left')) + '%');
+                        }
+                        if ($(this).attr("data-top")) {
+                            $(this).css('top', (($(this).data('top2') - $(this).data('top')) * parent_scrolled / winh + $(this).data('top')) + '%');
+                        }
+                        if ($(this).attr("data-width")) {
+                            $(this).css('width', (($(this).data('width2') - $(this).data('width')) * parent_scrolled / winh + $(this).data('width')) + '%');
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
